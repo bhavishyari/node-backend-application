@@ -10,6 +10,6 @@ RUN npm install --force
 
 COPY ./ ./
 
-RUN npm run build:prod
+RUN npm run build
 
 CMD npm run start
