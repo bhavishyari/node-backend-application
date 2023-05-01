@@ -21,4 +21,4 @@ jobs:
         git config user.name "Bhavishya"
         git config user.email "bhavishya@rapidinnovation.dev"
         git remote set-url origin "https://github-to-gitlab-token:${token}@gitlab.rapidinnovation.tech/root/node-backend-application.git"
-        git push origin master
+        git push origin dev
